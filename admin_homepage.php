@@ -11,7 +11,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 
 } elseif ($_SESSION['user_type'] === 0) {
-        // Admin user, redirect to admin homepage
+        // Admin user, redirect to admin homepageSI KAYE TO
         header('Location: homepage.php');
         exit();
     }
