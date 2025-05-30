@@ -255,6 +255,11 @@ if (!empty($sweetAlertConfig)) {
       <button type="submit" name="multisave" class="btn btn-primary mt-3">Sign Up</button>
       <a class="btn btn-outline-danger mt-3" href="index.php">Go Back</a>
     </div>
+
+       <div class="my-3 text-end">
+        <span>Have an account?</span>
+        <a href="index.php" class="btn btn-link p-0 align-baseline">Login Now</a>
+      </div>
   </form>
 </div>
 

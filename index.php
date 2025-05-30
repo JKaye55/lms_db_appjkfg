@@ -105,6 +105,10 @@ if (isset($_POST['login'])) {
         <a href="admin_homepage.php" class="text-decoration-none">Access Admin Homepage (For now)</a><br>
         <a href="registration.php" class="text-decoration-none">Don't have an account? Register here</a>
       </div>
+        <div class="my-3 text-end">
+        <span>Don't have an account?</span>
+        <a href="registration.php" class="btn btn-link p-0 align-baseline">Register Now</a>
+      </div>
     </form>
 
     <script src="./package/dist/sweetalert2.js"></script>
